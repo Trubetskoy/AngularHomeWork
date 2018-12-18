@@ -1,0 +1,19 @@
+.active {
+    background: darkgray;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    font-size: 25px;
+}
+button {
+    font-size: 25px;
+    background: darkgray;
+}
+footer {
+    min-height: 100px;
+}
+li {
+    list-style-type: none;
+}
