@@ -1,12 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 import {ButtonModule} from 'primeng/button';
 import {ChartModule} from 'primeng/chart';
-   
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -24,7 +24,7 @@ import {NewsComponent} from './components/news/news.component';
     RelaxComponent,
     WorkComponent,
     NewsComponent,
-    
+
   ],
   imports: [
     BrowserModule,
@@ -36,12 +36,12 @@ import {NewsComponent} from './components/news/news.component';
     FormsModule,
     ButtonModule,
     ChartModule,
-    
-       
+
+
   ],
 
   providers: [],
   bootstrap: [AppComponent],
- 
+
 })
 export class AppModule { }

@@ -8,13 +8,13 @@ templateUrl: './home.component.html',
 styleUrls: ['./home.component.scss']
 })
 
-export class HomeComponent{
+export class HomeComponent {
     model: NgbDateStruct;
     date: {year: number, month: number};
-  
+
     constructor(private calendar: NgbCalendar) {
     }
-  
+
     selectToday() {
       this.model = this.calendar.getToday();
     }

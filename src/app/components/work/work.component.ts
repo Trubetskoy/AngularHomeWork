@@ -4,7 +4,7 @@ import {Component} from '@angular/core';
     selector: 'app-work',
     templateUrl: './work.component.html',
     styleUrls: ['./work.component.scss'],
-    
+
 })
 
 export class WorkComponent {
@@ -27,6 +27,6 @@ export class WorkComponent {
                     data: [28, 48, 40, 19, 86, 27, 90]
                 }
             ]
-        }
+        };
     }
 }
