@@ -1,6 +1,7 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
+import {MatListModule} from '@angular/material/list';
 
-@Component ({
+@Component({
     selector: 'app-work',
     templateUrl: './work.component.html',
     styleUrls: ['./work.component.scss'],
@@ -8,7 +9,8 @@ import {Component} from '@angular/core';
 })
 
 export class WorkComponent {
-    data: any;
+    
+    public data: any;
 
     constructor() {
         this.data = {
